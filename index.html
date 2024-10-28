@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>calculator by batya</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <input type="text" id="result" disabled />
+        <div class="buttons">
+          <button id="clearResult" onclick="clearResult()">C</button>
+          <button onclick="appendToResultseven('7')">7</button>
+          <button onclick="appendToResulteight('8')">8</button>
+          <button onclick="appendToResultnine('9')">9</button>
+          <button onclick="division('/')">/</button>
+          <button onclick="appendToResultfour('4')">4</button>
+          <button onclick="appendToResultfive('5')">5</button>
+          <button onclick="appendToResultsix('6')">6</button>
+          <button onclick="multiplication('*')">*</button>
+          <button onclick="appendToResultone('1')">1</button>
+          <button onclick="appendToResulttwo('2')">2</button>
+          <button onclick="appendToResultthee('3')">3</button>
+          <button onclick="appendToResultminus('-')">-</button>
+          <button onclick="appendToResultnul('0')">0</button>
+          <button onclick="answer()">=</button>
+          <button onclick="appendToResultplus('+')">+</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
